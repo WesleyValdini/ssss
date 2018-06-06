@@ -1,0 +1,29 @@
+// body{
+//    display: flex;
+//    min-height: 100vh;
+//    margin: 0;
+//    padding: 0;
+// }
+// a{
+//    color: #fff;
+//    background-color: red;
+//    padding: .5em 1em;
+//    margin: auto;
+//    text-decoration: none;
+//    display: inline-block;
+//    position: relative;
+//    left: 0;
+//    transition: background-color .5s .2s,
+//                color 4s .2s,
+//                transform .2s,
+//                left .5s .4s;
+// }
+// p{
+//    margin: auto;
+//    &:hover a{
+//       background-color: black;
+//       color: yellow;
+//       transform: translateY(-50%);
+//       left: -1000%;
+//    }
+// }

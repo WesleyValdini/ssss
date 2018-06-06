@@ -1,0 +1,53 @@
+// .ball{
+//    width: 200px;
+//    height: 200px;
+//    background-color: red;
+//    border-radius: 50%;
+//    border: 2px solid black;
+//    animation-duration: 2s;
+//    animation-name: rebote;
+//    position: absolute;
+//    animation-iteration-count: infinite;
+   
+// }
+// @keyframes rebote{
+//    0%{
+//       left: 0;
+//    }
+//    50%{
+//       background-color: green;
+//    }
+//    100%{
+//       background-color: yellow;
+//       left: 200px;
+//    }
+
+// }
+
+
+body{
+   animation-name: bg, color;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+   background-color: red;
+   color: #fff;
+   display: flex;
+   min-height: 100vh;
+   font-family: 'Catamaran';
+   animation-direction: alternate;
+}
+h1{
+   margin: auto;
+   color: inherit;
+}
+@keyframes color{
+   100%{
+      color: #000;
+   }
+}
+@keyframes bg{
+   100%{
+      background: yellow;
+   }
+}
+
